@@ -25,4 +25,19 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// TODO: Add your tables here
+export const products = mysqlTable("products", {
+  id: int("id").autoincrement().primaryKey(),
+  name: varchar("name", { length: 255 }).notNull(),
+  brand: varchar("brand", { length: 128 }).notNull(),
+  category: mysqlEnum("category", ["Panels", "Inverters", "Batteries", "CCTV", "Accessories"]).notNull(),
+  price: int("price").notNull(), // Price in Naira
+  description: text("description"),
+  image: varchar("image", { length: 512 }), // URL to product image
+  specs: text("specs"), // JSON string for product specifications
+  inStock: int("inStock").default(1).notNull(), // 1 = in stock, 0 = out of stock
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type Product = typeof products.$inferSelect;
+export type InsertProduct = typeof products.$inferInsert;
