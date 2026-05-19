@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://zbkQszfBPMTv38X.5ac0b1a8971f:il7P5KL5oNSgML7q6F4S@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/d2mgeTYS4Ah9UtsrJS3mNT?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663241328187/d2mgeTYS4Ah9UtsrJS3mNT",
+    "access_key_id": "ASIAZV3A2ECZCIEP4GBJ",
+    "secret_access_key": "amiYIh2JsJTYVeOOhdpmjigtOwQtuH9wcr3bDEIG",
+    "session_token": "IQoJb3JpZ2luX2VjEBcaCXVzLWVhc3QtMSJIMEYCIQDi7uOUni9QmWAbErvLtadGZSiDF7buXBRcN9QAW3wWEAIhAPH10KnSpclp9YJApzQEISnvk2xpzWg1yu8Nw54CgMp0Kv8DCOD//////////wEQBBoMNjY1Mzg2MDk4ODY2Igx8gF232HIHtrnhDXAq0wOfKz24l9akmd3SM4rig6mRCgB5FxeXsCfPzBFWIR15kxUgbvRJV12JkNkJQ1In0zlS0EhPlpTPlJu0dQ4dGsnxW2o9XN5T31ye21/geZRuD4VT7LUd6FDVzfEecCwR3PRr95f5UR54dEzs1YkDx6uQ9qVsA/u2LZe+zRpNw/cuHg3Xu2Eenh9HW8+bxRSXxC3m0NMRMCDeP7fcCXrJjcA9FeL2BLBhlkgqszYKSg0oRLQtamtIWOt5be3eU0T2IUJDPeJKMj45KnEC8nrxyMNwrM+iTIawLboYc3uyzdtTXPFUGmSPvPTjhRXzoeFMrA9XQQ1GmfXwpBf7vQWDvcZP9QNGMwyVrBV4AwnUWy/F4z1DSvq+oRBB9gWw2u01CPHZB/LEveQk2MYQCLUj0thdn388olhNXsBTZ2fXRgU3SDcHmfiAzUqRY3mWfEhGODgIV04a46mTN1+7ibkUlN1ly2LW0XDOQ9mUn/Qc7Rx2Tub4QzV6+FBBNZD08+0XQXVX6yg5uoAefhVSfJ3MtvNqa19pmMA1gqsxtdNnJjpHxOLuWj4eiexVtksnQ8urRZU2nPzdfSYFOx+sCI+WoTbiFXnO9fgfNj/eepDEsIUAnZrp4TC3zrPQBjqcAX8VpEaA/jnlW4IOkBDmFjndyYFUjuK3cx0RQIwDHVIxVbcjDga5UldNRKI4/49k1lsFbKE/EhCZPC6295A+sWSj9xTfIOU1RFd3xfWz0xl/ikbaqI6IWVx6ZhFEPAkPooD0rRmeB84os7MmRaFCgbkk9U6QJgwLVUePUrHgrQ2LweM1YZmbIxXjYG1QmSkKypWc3xTJkGSLwkpxWQ==",
+    "expiration": "2026-05-20T10:41:59.000Z"
+  },
+  "name": "btech-energy-shop",
+  "path": "/home/ubuntu/btech-energy-shop",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "hQxku3WZ2iuiWHQXo3T8qw",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "L5ZVRbwLGfZKBpcM8QtdvB",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "bello oluwatosin",
+    "OWNER_OPEN_ID": "FrFfddLdfEfiQSjZWazHcV",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "28896672-15a0-46c5-950f-bdef77c50f5f",
+    "VITE_APP_ID": "d2mgeTYS4Ah9UtsrJS3mNT",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Btech Energy Shop",
+    "VITE_FRONTEND_FORGE_API_KEY": "LCeyNBakfiE37PDbpsz9RE",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
